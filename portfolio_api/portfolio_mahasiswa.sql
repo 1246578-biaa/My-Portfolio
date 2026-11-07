@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 13, 2026 at 06:54 PM
+-- Generation Time: Nov 07, 2026 at 08:13 AM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.5.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -44,9 +44,9 @@ CREATE TABLE `projects` (
 --
 
 INSERT INTO `projects` (`id`, `title`, `category`, `year`, `tech`, `description`, `color`, `image`, `created_at`) VALUES
-(1, 'Aplikasi Djawara Dawet', 'React', '2025', 'Flutter, Dart, PHP, MySQL', 'Aplikasi pemesanan dawet digital untuk pelanggan dan manajemen toko.', 4278223759, 'assets/appdjawara.jpg', '2026-10-08 15:22:31'),
+(1, 'Aplikasi Djawara Dawet', 'Flutter', '2025', 'Flutter, Dart, PHP, MySQL', 'Aplikasi pemesanan dawet digital untuk pelanggan dan manajemen toko.', 4281236786, 'assets/appdjawara.jpg', '2026-10-08 15:22:31'),
 (3, 'Web Supplier Toko El-Fath', 'Laravel', '2024', 'Laravel, PHP, MySQL, Bootstrap', 'Sistem informasi pengelolaan pasokan dan supplier.', 4279592384, 'assets/websiteel-fath.jpg', '2026-10-08 15:22:31'),
-(6, 'Web informasi Seventeen', 'PHP', '2025', 'html,CSS', 'website tentang grup kpop seventeen beserta perjalan karirnya', 4282722208, 'uploads/project_1791870234_6acdc51a875c7.jpg', '2026-10-13 05:43:54'),
+(6, 'Web informasi Seventeen', 'HTML/CSS', '2025', 'html,CSS', 'Website informasi tentang grup K-Pop SEVENTEEN yang menampilkan profil anggota, perjalanan karier, dan informasi terkait grup.', 4293357312, 'uploads/project_1791870234_6acdc51a875c7.jpg', '2026-10-13 05:43:54'),
 (7, 'Desain Figma Aplikasi Djawara Dawet', 'Figma', '2026', 'Figma, Flutter, PHP', 'Desain rancangan aplikasi Djawara Dawet', 4285143962, 'uploads/project_1791890771_6ace1553ebf36.png', '2026-10-13 11:26:12'),
 (9, 'Kariera (Aplikasi Pencarian Kerja)', 'Figma', '2026', 'Flutter,  Dart, Figma', 'Kariera adalah aplikasi mobile pencarian lowongan kerja modern yang memudahkan pengguna menemukan pekerjaan impian, memfilter tipe pekerjaan (Full-time, Remote), serta mengelola profil kandidat digital', 4285143962, 'uploads/project_1791904290_6ace4a226ddb6.jpg', '2026-10-13 15:11:30');
 
